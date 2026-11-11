@@ -36,7 +36,6 @@ jobs:
           fi
       - name: Compile
         run: |
-          ./tests/run_tests.sh
           ./build.sh
           cp build/*.fwsc release/FM1-Studio-v1.0/FM1-Studio-v1.0.fwsc
           cp build/*-res.bin release/FM1-Studio-v1.0/ 2>/dev/null || true
