@@ -12,3 +12,5 @@ fm1-recovery-backups/
 web/manual/*.png
 web/node_modules/
 !/AGENTS.md
+.aider*
+.env
